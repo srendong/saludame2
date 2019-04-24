@@ -6,5 +6,5 @@ end
 
 get '/:nombre' do
 
-  "<h1 style=\"text-transform: capitalize;\">Hola #{params[:nombre]}!</h1>"
+  "<h1 style=\"text-transform: capitalize\">Hola #{params[:nombre]}!</h1>"
 end
