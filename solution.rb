@@ -1,7 +1,7 @@
 require 'sinatra'
 
 
-get '/:nombre' do
+get '/makers/:nombre' do
 
     @codigo = "Hola #{params[:nombre].capitalize}!"
 
